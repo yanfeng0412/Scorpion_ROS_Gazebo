@@ -1,0 +1,2 @@
+sc_control:sc_description:sc_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/a/sc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/a/sc_ws/install -G Unix Makefiles

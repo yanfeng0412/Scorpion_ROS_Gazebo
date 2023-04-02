@@ -1,0 +1,428 @@
+j_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - Joint1_1
+    - Joint1_2
+    - Joint1_3
+    - Joint2_1
+    - Joint2_2
+    - Joint2_3
+    - Joint3_1
+    - Joint3_2
+    - Joint3_3
+    - Joint4_1
+    - Joint4_2
+    - Joint4_3
+    - Joint5_1
+    - Joint5_2
+    - Joint5_3
+    - Joint6_1
+    - Joint6_2
+    - Joint6_3
+    - LJoint1
+    - LJoint2
+    - LJoint3
+    - LJoint3_1
+    - LJoint3_2
+    - RJoint1
+    - RJoint2
+    - RJoint3
+    - RJoint3_1
+    - RJoint3_2
+    - TJoint1
+    - TJoint2
+    - TJoint3
+    - TJoint4
+    - TJoint5
+    - TJoint5_1
+    - TJoint5_2
+  gains:
+    Joint1_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint1_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint1_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint2_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint2_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint2_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint3_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint3_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint3_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint4_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint4_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint4_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint5_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint5_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint5_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint6_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint6_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint6_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint3_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint3_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint3_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint3_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint5:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint5_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint5_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+l_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - Joint1_1
+    - Joint1_2
+    - Joint1_3
+    - Joint2_1
+    - Joint2_2
+    - Joint2_3
+    - Joint3_1
+    - Joint3_2
+    - Joint3_3
+    - Joint4_1
+    - Joint4_2
+    - Joint4_3
+    - Joint5_1
+    - Joint5_2
+    - Joint5_3
+    - Joint6_1
+    - Joint6_2
+    - Joint6_3
+    - LJoint1
+    - LJoint2
+    - LJoint3
+    - LJoint3_1
+    - LJoint3_2
+    - RJoint1
+    - RJoint2
+    - RJoint3
+    - RJoint3_1
+    - RJoint3_2
+    - TJoint1
+    - TJoint2
+    - TJoint3
+    - TJoint4
+    - TJoint5
+    - TJoint5_1
+    - TJoint5_2
+  gains:
+    Joint1_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint1_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint1_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint2_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint2_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint2_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint3_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint3_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint3_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint4_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint4_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint4_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint5_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint5_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint5_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint6_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint6_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    Joint6_3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint3_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    LJoint3_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint3_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    RJoint3_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint5:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint5_1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    TJoint5_2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

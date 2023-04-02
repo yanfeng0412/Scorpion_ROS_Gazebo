@@ -1,0 +1,52 @@
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find sc_control)/config/sc_control.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+	output="screen" ns="/sc" args="joint_state_controller
+					  joint1_1position_controller
+					  joint1_2position_controller
+					  joint1_3position_controller
+					  joint2_1position_controller
+					  joint2_2position_controller
+					  joint2_3position_controller
+            		  joint3_1position_controller
+            		  joint3_2position_controller
+            		  joint3_3position_controller
+					  joint4_1position_controller
+					  joint4_2position_controller
+					  joint4_3position_controller
+            		  joint5_1position_controller
+            		  joint5_2position_controller
+            		  joint5_3position_controller
+					  joint6_1position_controller
+					  joint6_2position_controller
+					  joint6_3position_controller
+					  jointT1_position_controller
+					  jointT2_position_controller
+					  jointT3_position_controller
+					  jointT4_position_controller
+					  jointT5_position_controller
+					  jointT5_1position_controller
+					  jointT5_2position_controller
+					  jointL1_position_controller
+					  jointL2_position_controller
+					  jointL3_position_controller
+					  jointL3_1position_controller
+					  jointL3_2position_controller
+					  jointR1_position_controller
+					  jointR2_position_controller
+					  jointR3_position_controller
+					  jointR3_1position_controller
+					  jointR3_2position_controller
+					   "/>
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+	respawn="false" output="screen">
+    <remap from="/joint_states" to="/sc/joint_states" />
+  </node>
+
+</launch>
